@@ -11,11 +11,12 @@
 		F9B380C22A72A88C0031319C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380C12A72A88C0031319C /* ContentView.swift */; };
 		F9B380C42A72A88E0031319C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B380C32A72A88E0031319C /* Assets.xcassets */; };
 		F9B380C72A72A88E0031319C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B380C62A72A88E0031319C /* Preview Assets.xcassets */; };
-		F9B380CF2A72CCBE0031319C /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380CE2A72CCBE0031319C /* product.swift */; };
+		F9B380CF2A72CCBE0031319C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380CE2A72CCBE0031319C /* Product.swift */; };
 		F9B380D22A72CEBA0031319C /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380D12A72CEBA0031319C /* ProductCard.swift */; };
 		F9B380D52A72DA950031319C /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380D42A72DA950031319C /* CartButton.swift */; };
 		F9B380D72A72E4F60031319C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380D62A72E4F60031319C /* CartView.swift */; };
 		F9B380D92A72E67C0031319C /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380D82A72E67C0031319C /* CartManager.swift */; };
+		F9B380DB2A7306150031319C /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380DA2A7306150031319C /* ProductRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +25,12 @@
 		F9B380C12A72A88C0031319C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9B380C32A72A88E0031319C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B380C62A72A88E0031319C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F9B380CE2A72CCBE0031319C /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
+		F9B380CE2A72CCBE0031319C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F9B380D12A72CEBA0031319C /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		F9B380D42A72DA950031319C /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		F9B380D62A72E4F60031319C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		F9B380D82A72E67C0031319C /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		F9B380DA2A7306150031319C /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,7 @@
 		F9B380CD2A72CCA50031319C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F9B380CE2A72CCBE0031319C /* product.swift */,
+				F9B380CE2A72CCBE0031319C /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,6 +95,7 @@
 			children = (
 				F9B380D12A72CEBA0031319C /* ProductCard.swift */,
 				F9B380D42A72DA950031319C /* CartButton.swift */,
+				F9B380DA2A7306150031319C /* ProductRow.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -176,8 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B380DB2A7306150031319C /* ProductRow.swift in Sources */,
 				F9B380D72A72E4F60031319C /* CartView.swift in Sources */,
-				F9B380CF2A72CCBE0031319C /* product.swift in Sources */,
+				F9B380CF2A72CCBE0031319C /* Product.swift in Sources */,
 				F9B380D92A72E67C0031319C /* CartManager.swift in Sources */,
 				F9B380C22A72A88C0031319C /* ContentView.swift in Sources */,
 				F9B380C02A72A88C0031319C /* EcommerceAppApp.swift in Sources */,
