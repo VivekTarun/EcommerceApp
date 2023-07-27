@@ -22,6 +22,14 @@ struct ContentView: View {
                 .padding()
             }
             .navigationTitle(Text("Sweater Shop"))
+            .toolbar {
+                NavigationLink {
+                    CartView()
+                } label: {
+                    CartButton(numberofProducts: 4)
+                }
+                
+            }
         }
         .navigationViewStyle(StackNavigationViewStyle())
     }
@@ -32,3 +40,4 @@ struct ContentView: View {
         }
     }
 }
+
