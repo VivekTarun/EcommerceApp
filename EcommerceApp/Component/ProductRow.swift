@@ -21,7 +21,7 @@ struct ProductRow: View {
             VStack(alignment: .leading, spacing: 10) {
                 Text(product.name)
                     .bold()
-                Text("$\(product.price)")
+                Text("₹ \(product.price)")
             }
             Spacer()
             Image(systemName: "trash")
