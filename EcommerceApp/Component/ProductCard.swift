@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ProductCard: View {
+    @EnvironmentObject var cartManager: CartManager
     var product: Product
     
     var body: some View {
@@ -22,7 +23,7 @@ struct ProductCard: View {
                 VStack(alignment: .leading) { // by setting the leading constraint we set the starting point of a view, while the trailing constraint sets the ending point.
                     Text(product.name)
                         .bold()
-                    Text("\(product.price)$") // Don't know the meaning of $ sign
+                    Text("₹ \(product.price)") // Don't know the meaning of $ sign
                         .font(.caption)
                 }
                 .padding()
@@ -35,6 +36,8 @@ struct ProductCard: View {
             .shadow(radius: 3)
             
             Button{
+                print("added to cart")
+                cartManager.addToCart(product: product)
             } label: {
                 Image(systemName: "plus")
                     .padding(10)
@@ -49,6 +52,7 @@ struct ProductCard: View {
     struct ProductCard_Previews: PreviewProvider {
         static var previews: some View {
             ProductCard(product: productList[0])
+                .environmentObject(CartManager())
         }
     }
 }
