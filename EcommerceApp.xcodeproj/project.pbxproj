@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9AB506B2A743768002364AA /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AB506A2A743768002364AA /* PaymentButton.swift */; };
 		F9B380C02A72A88C0031319C /* EcommerceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380BF2A72A88C0031319C /* EcommerceAppApp.swift */; };
 		F9B380C22A72A88C0031319C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B380C12A72A88C0031319C /* ContentView.swift */; };
 		F9B380C42A72A88E0031319C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B380C32A72A88E0031319C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9AB506A2A743768002364AA /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
 		F9B380BC2A72A88C0031319C /* EcommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B380BF2A72A88C0031319C /* EcommerceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppApp.swift; sourceTree = "<group>"; };
 		F9B380C12A72A88C0031319C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				F9B380D12A72CEBA0031319C /* ProductCard.swift */,
 				F9B380D42A72DA950031319C /* CartButton.swift */,
 				F9B380DA2A7306150031319C /* ProductRow.swift */,
+				F9AB506A2A743768002364AA /* PaymentButton.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AB506B2A743768002364AA /* PaymentButton.swift in Sources */,
 				F9B380DB2A7306150031319C /* ProductRow.swift in Sources */,
 				F9B380D72A72E4F60031319C /* CartView.swift in Sources */,
 				F9B380CF2A72CCBE0031319C /* Product.swift in Sources */,
